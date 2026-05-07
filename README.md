@@ -94,16 +94,6 @@ pip install -r requirements.txt
 streamlit run fraud_detection.py
 ```
 
-Or use your custom command:
-
-```bash
-cd "c:\Users\A Anish Raj\Documents\Documents\fraud_detection"
-
-"C:/Users/A Anish Raj/AppData/Local/Python/pythoncore-3.14-64/python.exe" -m streamlit run fraud_detection.py
-```
-
----
-
 # How It Works
 
 The user enters transaction details such as:
