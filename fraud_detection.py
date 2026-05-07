@@ -21,16 +21,28 @@ oldbalanceDest = st.number_input("Old Balance(receiver)", min_value = 0.0, value
 newbalanceDest = st.number_input("New Balance(receiver)", min_value = 0.0, value = 0.0)
 
 if st.button("Predict"):
+
+    balanceDiffOrig = oldbalanceOrg - newbalanceOrg
+    blanceDiffDest = newbalanceDest - oldbalanceDest
+
     input_data = pd.DataFrame([{
         "type": transaction_type,
         "amount": amount,
         "oldbalanceOrg": oldbalanceOrg,
-        "newbalanceOrg": newbalanceOrg,
+
+        # IMPORTANT:
+        "newbalanceOrig": newbalanceOrg,
+
         "oldbalanceDest": oldbalanceDest,
-        "newbalanceDest": newbalanceDest
+        "newbalanceDest": newbalanceDest,
+
+        # Engineered features
+        "balanceDiffOrig": balanceDiffOrig,
+        "blanceDiffDest": blanceDiffDest
     }])
-    
+
     prediction = model.predict(input_data)[0]
+
     st.subheader(f"Prediction: '{int(prediction)}'")
 
     if prediction == 1:
