@@ -166,7 +166,7 @@ Add screenshots inside the `assets/` folder.
 Example:
 
 ```md
-![App Screenshot](/preview.png)
+![App Screenshot](preview.png)
 ```
 
 ---
