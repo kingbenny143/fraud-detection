@@ -149,17 +149,6 @@ The trained Machine Learning model analyzes the input and predicts:
 
 ---
 
-# Screenshots
-
-Add screenshots inside the `assets/` folder.
-
-Example:
-
-```md
-![App Screenshot](assets/preview.png)
-```
-
----
 
 # Deployment
 
