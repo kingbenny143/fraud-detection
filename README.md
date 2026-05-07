@@ -159,18 +159,6 @@ The trained Machine Learning model analyzes the input and predicts:
 
 ---
 
-# Screenshots
-
-Add screenshots inside the `assets/` folder.
-
-Example:
-
-```md
-![App Screenshot](preview.png)
-```
-
----
-
 # Deployment
 
 ## Streamlit Cloud
