@@ -163,8 +163,6 @@ The trained Machine Learning model analyzes the input and predicts:
 
 ## Streamlit Cloud
 
-## Deployment
-
 The application can be deployed using Streamlit Cloud.
 
 ---
