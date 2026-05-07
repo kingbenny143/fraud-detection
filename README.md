@@ -163,10 +163,9 @@ The trained Machine Learning model analyzes the input and predicts:
 
 ## Streamlit Cloud
 
-1. Push project to GitHub
-2. Open Streamlit Cloud
-3. Connect GitHub repository
-4. Deploy the app
+## Deployment
+
+The application can be deployed using Streamlit Cloud.
 
 ---
 
